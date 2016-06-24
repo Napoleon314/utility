@@ -1,0 +1,8 @@
+project_name		= "utility"
+binary_path			= "bin"
+build_path			= "build"
+document_path		= "doc"
+external_path		= "ext"
+include_path		= "include"
+source_path			= "src"
+test_path			= "test"
