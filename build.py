@@ -1,12 +1,6 @@
 import os, sys, multiprocessing, subprocess
 from build_util import *
 
-def exec_command_line(content):
-	p = subprocess.Popen(content, shell=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
-	for line in p.stdout.readlines():
-		str_line = line.decode("utf-8")
-		sys.stdout.write("	" + line)
-
 if __name__ == "__main__":
 	cfg = cfg_from_argv(sys.argv)
 	bi = build_info(cfg.compiler, cfg.archs, cfg.cfg)
