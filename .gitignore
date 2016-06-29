@@ -1,3 +1,4 @@
 _*
 dep/*
 build_cfg.py
+build/*
