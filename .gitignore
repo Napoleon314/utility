@@ -2,3 +2,4 @@ _*
 *.py*
 dep/*
 build/*
+bin/*
